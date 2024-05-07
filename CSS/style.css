@@ -1,0 +1,63 @@
+/* Element {
+    Declaration
+ } */
+h3 {
+    color:red;
+}
+
+/* class selector */
+
+.parag1 {
+    color: indigo;
+    font-size: 30px;
+}
+
+/* id selector */
+#parag2 {
+    color:cyan;
+    font-size: large;
+}
+
+/* Attribute selector */
+/* [attribute] {declaration}
+Selectors can be combined */
+[href] {
+    color: yellow;
+    background-color: brown;
+}
+
+/* can target specific attributes */
+
+[href="www.example1.com"] {
+    color: cyan;
+    background-color: navy;
+}
+
+/* grouping selector
+applies style to diff attributes separated by a "," */
+
+/* h1,h2,h3 {
+    color: coral;
+    font-size: 20px;
+    background-color: cyan;
+} */
+
+/* can group attributes with id and class attributes */
+.heading1,h2,#heading3 {
+    color: coral;
+    font-size: 20px;
+    background-color: cyan;
+}
+
+/* pseudo-class */
+
+h2:hover {
+    background-color: navy;
+    color: white;
+}
+
+/* Pseudo-element */
+
+#heading3::before {
+    content: "Placed after h3";
+}

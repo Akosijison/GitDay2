@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position Property</title>
+    <style>
+    .static{
+        background-color: lightcoral;
+        width: 200px;
+        margin-bottom: 10px;
+        position: static;
+    }
+
+    .relative-position {
+        background-color: aqua;
+        padding: 10px;
+        margin-right: 20px;
+        position: relative;
+        /* Positioning properties
+            top / left / right / bottom
+        */
+        top: 20px;
+        left: 50px;
+    }
+
+    .absolute {
+        background-color: salmon;
+        width: 120px;
+        padding: 10px;
+        position: absolute;
+        top: 20px;
+        left: 150px;
+    }
+
+    .fixed {
+        background-color: lightskyblue;
+        width: 200px;
+        padding: 10px;
+        position: fixed;
+        top: 20px;
+        right: 120px;
+    }
+
+    .sticky {
+        background-color: lightgray;
+        padding: 10px;
+        width: 200px;
+        position: sticky;
+        bottom: 100px;
+        left: 40px;
+    }
+    </style>
+</head>
+<body>
+    <h1>Positioning Property</h1>
+
+    <div class="static">static position will not change position</div>
+
+    <div class="relative-position">Relative Position</div>
+    <div class="absolute">Absolute Position</div>
+    <div class="fixed">fixed position</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consequuntur fuga totam neque. Cumque voluptatem exercitationem similique asperiores soluta fugiat accusamus sequi adipisci, molestiae repellendus, at mollitia officiis sint! Obcaecati.</p>
+    <div class="sticky">sticky position</div>
+</body>
+</html>

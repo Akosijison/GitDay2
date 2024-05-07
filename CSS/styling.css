@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20+Charted&display=swap');
+
+
+#bg {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,100,1) 22%, rgba(9,121,100,1) 58%, rgba(0,212,255,1) 100%);
+/* 
+    background-color:#f2b6aa;
+
+    /* gradient background 
+    background: rgb(203,214,120);
+    background: linear-gradient(300deg, rgba(203,214,120,1) 2%, rgba(246,220,164,1) 46%, rgba(121,255,225,1) 100%);
+
+    background-image: url('sample.jpg');
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/004/574/139/small_2x/colorful-abstract-background-modern-fluid-background-free-vector.jpg');
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ; 
+    background-attachment: fixed ;
+    
+    /* background: bg-color || bg-image || bg-position || bg-repeat || bg-size || bg-attachment */
+
+    /* background: aqua url('sample.jpg') center cover no-repeat fixed;  */
+
+}
+.font-sample {
+    font-family: "Jersey 20 Charted", sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background-color: navy;
+}
+
+/* text alignment */
+
+.text-sample {
+    font-family: "Jersey 20 Charted", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: overline;
+    font-size: 20px;
+
+}
+
+/* Spacing example */
+
+#spacing-sample {
+    letter-spacing: 5px;
+    line-height: 10;
+    background-color: violet;
+    text-indent: 50px;
+    size: 50px;
+
+}
+
+/* Shadows sample 
+
+ syntax : X, Y, Blur radius (higher value = higher diffusion), Color
+ */
+
+#shadow-sample {
+    text-shadow: 10px 5px 5px red;
+
+}
+
+.box-model {
+    background-color: aqua;
+    height: 100px;
+    width: 80px;
+    padding: 10px 20px;
+    padding-left: 100px;
+
+    border-style: groove;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 20px 50px;
+
+    margin: 10px 30px;
+    
+}
+
+/* 
+Padding
+1 value = all sides
+2 value = top and bottom > left and right
+3 value = top > sides > bottom
+4 value = top > right > bottom > left
+*/
