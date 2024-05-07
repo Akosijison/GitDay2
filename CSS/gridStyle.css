@@ -1,0 +1,47 @@
+.gridItem {
+    min-width: 20px;
+    border: 2px darkred solid;
+    background-color: aqua;
+    text-align: center;
+    justify-content: center;
+    min-height: 100px;
+}
+
+.container {
+    background-color: yellowgreen;
+}
+
+.gridContainer {
+    display: grid;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 120px;
+}
+
+.gridContainer {
+    display: grid;
+    height: 500px;
+    grid-template: 200px 80px auto auto auto ;
+    /* combines grid temp rows and columns */
+}
+
+.gridContainer {
+    display: grid;
+    height: 500px;
+    grid-template: 200px 80px auto auto auto ;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.gridContainer {
+    display: grid;
+    height: 500px;
+    grid-template: 200px 80px auto auto auto ;
+    justify-content: space-around;
+    align-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+}

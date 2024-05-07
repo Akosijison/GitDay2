@@ -1,0 +1,92 @@
+/* Flexbox CSS */
+
+.flexItem {
+    width: 200px;
+    margin: 10px;
+    border: 2px black solid;
+    background-color: lightblue;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.cross-axis {
+    position: absolute;
+    right: 50%;
+    height: 1080px;
+    width: 3px;
+    background-color: red;
+}
+
+.main-axis {
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    width: 2160px;
+    background-color: blue;
+}
+
+.container {
+    height: 300px;
+    background-color: yellowgreen;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+.flexContainer {
+    display: flex;
+    flex-flow: row wrap;
+    /* flex-flow combines flex direction and 
+    flex wrap */
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexContainer {
+    display: flex;
+    align-items: stretch;
+    /* stretches items to the height of the container along
+    the x-axis */
+}
+
+.flexItem1 {
+    flex-grow: 8;
+    /* makes item grow to cover unused space */
+}
+
+.flexItem2 {
+    /* flex-grow: 8; */
+    flex-shrink: 5;
+}
+
+.flexItem3 {
+    /* flex-grow: 8; */
+    flex-basis: 300px;
+    /* adds a base number before applying flex properties */
+}
+
+.flexItem3 {
+    flex: 8 2 400px;
+}
+
+.flexItem2 {
+    align-self: center;
+}
