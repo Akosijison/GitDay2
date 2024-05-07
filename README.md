@@ -1,1 +1,1 @@
-One code camp test repository
+This is a Bootcamp repository for my first steps into frontend Coding
